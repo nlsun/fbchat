@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Chat",
+  "description": "Block everything off facebook except for the chat interface",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "cle_icon.png",
+    "default_popup": "fbchat.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
+
